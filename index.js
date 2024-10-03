@@ -2,11 +2,12 @@ import express from "express";
 import { bookingRouter } from "./routes/all-route.js";
 import mongoose from "mongoose";
 import "dotenv/config"
+import cors from "cors";
 // create an app
  const bookingApp = express();
 
 //  use route
-
+bookingApp.use(cors());
 bookingApp.use(express.json())
 bookingApp.use(bookingRouter);
 

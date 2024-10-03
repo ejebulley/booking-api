@@ -7,7 +7,7 @@ bookingRouter.get("/bookings", getAllBookings);
 
 bookingRouter.get("/onebookings", getOneBooking);
 
-bookingRouter.post("/postbooking", postBooking);
+bookingRouter.post("/postbookings", postBooking);
 
 bookingRouter.patch("/updatebooking", updateBooking);
 

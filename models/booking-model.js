@@ -8,7 +8,7 @@ const bookingSchema = new Schema({
         // required : true
     }, 
 
-    LastName: {
+    lastName: {
         type : String,
         // required : true
     }, 
@@ -22,7 +22,7 @@ const bookingSchema = new Schema({
 
     seatNumber: {
         type: Number,
-        unique: true,
+        // unique: true,
         // required: true
     },
 
